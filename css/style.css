@@ -1,0 +1,241 @@
+/*******************************ELement Tags**********************/
+body{
+  margin: 0;
+
+}
+
+h1
+{
+  font-family: 'Liu Jian Mao Cao', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+table
+{
+  font-family: 'McLaren', cursive;
+  font-size: 20px;
+  border-spacing: 15px;
+}
+
+h2
+{
+  font-family: 'Bangers', cursive;
+
+  font-size: 40px;
+}
+
+h3
+{
+  font-size: 23px;
+  font-family: sans-serif;
+}
+
+/*******************************Class Tags************************/
+.heading-container
+{
+  height: 500px;
+  width: 600px;
+
+  margin: auto;
+  padding: 20px 0;
+
+}
+
+.heading-font
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  transform: rotate(-8deg);
+}
+
+.heading-image
+{
+  margin-left: 27%;
+  border-radius: 50%;
+
+}
+
+.heading-text
+{
+  font-size: 25px;
+  text-align: center;
+  color:white;
+  font-family: 'McLaren', cursive;
+}
+.middle-container
+{
+
+  width: 100%;
+  background-color: none;
+}
+.middle-left-container
+{
+  height: 400px;
+  width: 30%;
+  background-color: none;
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.middle-right-container
+{
+  height: 400px;
+  width: 62%;
+  background-color: none;
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+}
+.services-container
+{
+
+  width: 100%;
+  background-color: orange;
+  margin-top: 50px;
+}
+.services-table
+{
+  border: 1px solid none;
+  margin: auto;
+
+
+}
+
+.service-cell
+{
+  column-width: 400px;
+  text-align: center;
+  border: 1px solid none;
+}
+.service-heading
+{
+  margin:0;
+  color: white;
+}
+.service-images
+{
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  margin-botom: 0;
+
+}
+.service-texts
+{
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  color: powderblue;
+
+}
+.skill-container
+{
+  height: 20px;
+  width: 80%;
+  margin:auto;
+  background-color: silver;
+  box-shadow: 1px 1px 1px  black;
+  padding:0;
+}
+.skill-value
+{
+  height:20px;
+  width: 90%;
+  margin:0;
+  background-color: #990000;
+}
+.social-icons
+{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.top-container
+{
+  height: 660px;
+  width: 100%;
+  background-color: none;
+  overflow: hidden;
+  background-position: center;
+  background-size: 100% 850px;
+  background-image: url(../images/dreams-dont-work.jpg);
+
+
+}
+
+.top-layer
+{
+  height: 660px;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0px;
+  margin: 0;
+  background: rgba(230,230,0,0.9);
+}
+
+
+.work-container
+{
+
+  width: 100%;
+  background-color: orange;
+}
+
+.work-image
+{
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.work-image:hover
+{
+  filter:contrast(0.5);
+}
+
+
+.work-experience
+{
+  height: 50px;
+  width: 300px;
+  margin-top: 0;
+  background-color: grey;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.work-experience-table
+{
+  margin: auto;
+  margin-top: 0;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-bottom: 0;
+
+
+}
+
+.work-experience-left-cell
+{
+  column-width: 700px;
+  border-right: 4px solid grey;
+  padding: 10px;
+  text-align: right;
+}
+.work-experience-right-cell
+{
+  column-width: 700px;
+    padding: 10px;
+    border-left: 4px solid grey;
+    text-align: left;
+}
+/********************************Id tags*************************/
